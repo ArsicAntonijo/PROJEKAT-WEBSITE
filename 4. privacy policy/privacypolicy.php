@@ -16,7 +16,7 @@
     </head>
     <body>
         <div id="heading">
-            <a href="\PROJEKAT - WEBSITE\1. home\Home.php"><h1><b>EXIT</h1></b></a>
+            <a href="\PROJEKAT-WEBSITE\1. home\Home.php"><h1><b>EXIT</h1></b></a>
             <a href="#" class="paint"><h1>Privacy Policy</h1></a>
         </div>
         <br><br><br>

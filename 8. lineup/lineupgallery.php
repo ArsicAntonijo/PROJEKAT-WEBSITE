@@ -17,7 +17,7 @@
         <div id="gridview">
             <!-- Creating a navbar -->
             <div class="topnav" id="myTopnav">
-            <a href="\PROJEKAT - WEBSITE\1. home\Home.php" class="active"><b>EXIT</b></a>
+            <a href="\PROJEKAT-WEBSITE\1. home\Home.php" class="active"><b>EXIT</b></a>
             <a href="lineupgallery.php?id=1">2018</a>
             <a href="lineupgallery.php?id=2">2019</a>
             <a href="lineupgallery.php?id=3">2020</a>

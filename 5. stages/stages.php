@@ -16,7 +16,7 @@
     </head>
     <body>
         <div id="header">
-            <a href="\PROJEKAT - WEBSITE\1. home\Home.php"><h2><b>EXIT</h2></b></a>
+            <a href="\PROJEKAT-WEBSITE\1. home\Home.php"><h2><b>EXIT</h2></b></a>
             <a href="stages.html" class="paint"><h2>Stages</h2></a>
         </div>
         <?php

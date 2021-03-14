@@ -9,7 +9,7 @@
     <body>
         <!--Kreiranje navbar-a-->
         <div class="topnav">
-            <a href="\PROJEKAT - WEBSITE\1. home\home.php" class="active"><b>EXIT</b></a>
+            <a href="\PROJEKAT-WEBSITE\1. home\home.php" class="active"><b>EXIT</b></a>
             <div id="myLinks">
                 <a href="stages.php?id=1">MAIN STAGE</a>
                 <a href="stages.php?id=2">DANCE ARENA STAGE</a>

@@ -32,7 +32,7 @@
 		if($email == "admin") {
 			$pass = test_input($_POST["pass"]);
 			if($pass == "admin"){
-				header("Location: \PROJEKAT - WEBSITE\Administrator privilege/admin_page.html");
+				header("Location: \PROJEKAT-WEBSITE\Administrator privilege/admin_page.html");
 			}
 		} else {
 			$sql = "SELECT name, lastname, email, password FROM users WHERE email='".$email."'";
@@ -49,7 +49,7 @@
 							$_SESSION["email"] = $email;
 							//echo "<script language=\"javascript\">alert('info: ".$_SESSION["userInfo"]."');</script>";
 							
-							header('Location: \PROJEKAT - WEBSITE\1. home\Home.php');
+							header('Location: \PROJEKAT-WEBSITE\1. home\Home.php');
 						} else{
 							$passErr = "* Wrong password!";
 						}
@@ -382,7 +382,7 @@ input[type=text]:placeholder {
     <div id="formFooter">
 		<a  >You don't have acaunt? </a>
 		<a class="underlineHover" href="signUp.php">Sing up</a><br>
-		<a class="underlineHover" href="\PROJEKAT - WEBSITE\1. home\Home.php">Return home</a>
+		<a class="underlineHover" href="\PROJEKAT-WEBSITE\1. home\Home.php">Return home</a>
     </div>
 
   </div>
