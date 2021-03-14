@@ -1,0 +1,353 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0px;
+}
+
+/* DEFAULT */
+
+/* HEADER */
+.links {
+    text-align: right;
+    display: block;
+}
+
+
+
+.header {
+    display: none;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    font-size: 18px;
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+.main-nav li a, .logo {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main-nav li:hover {
+    background-color: #e30613;
+}
+
+/* -----------------------------------*/
+/* dropdown in navigation menu */
+
+#dropdown {
+    padding: 10px 0 10px 0;
+}
+
+#dropdown:hover {
+    background-color: black;
+}
+
+#dropdown:hover .dropbtn {
+    background-color:#e30613;
+    display: block;
+    padding: 10px;
+}
+
+#paint {
+    color: #e30613;
+    text-align: left;
+}
+
+#paint:hover {
+    color: white;
+    font-size: 1.1em;
+}
+
+#dropdown div a {
+    display: none;
+}
+
+#dropdown:hover div a {
+    display: block;
+    background-color: black;
+   
+    margin: 15px auto;
+    font-size: 9;
+    overflow: visible;
+}
+/* -----------------------------------*/
+/* menu-icon */
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: white;
+    font-size: 24px;
+    display: block;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin: 10px 20px;
+    background-color: #e30613;  
+}
+
+.active {
+    display: block;
+}
+
+#deactivate {
+    display: none;
+}
+
+/* CONTENT */
+
+#setmarg {
+    margin-top: 30px;
+}
+
+.content-img {
+    background-image: url('exit-2019-dance-arena.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color:white;
+    text-shadow: 1px 1px 0px #000;
+    padding: 20px;
+}
+
+.content-yout {
+    background-color: #272727;
+    text-align: center;
+    padding: 20px;
+}
+
+/* FOOTER */
+
+.footer-top img {
+    width: 55px; height: 60px;
+}
+
+.footer-top ul {
+    background-color: #171717;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-top li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.footer-bottom a {
+    color: white;
+}
+
+.footer-bottom img {
+    width: 250px;
+    height: 100px;
+}
+
+/***************************************************************************/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 760px) {
+    .wh {width: 200px; height: 80px;}
+    .w ul li { width: 100%; }
+    .footer-bottom img {
+        width: 150px;
+        height: 80px;
+    }
+    
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .wh {width: 580px; height: 200px;}
+    .w ul li { width: 40%; }
+    /*#smaller { 
+        font-size: 0.85em;
+    }
+    #paint {
+        font-size: 0.6em;
+    }
+    #paint:hover {
+        font-size: 0.7em;
+    }
+    #bigger {
+        font-size: 0.9em;
+        padding-bottom: 16px;
+    }*/
+    
+}
+  
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+/***************************************************************************/
+
+/* For landscape tablets, 768px and up: */
+
+@media screen and (min-width: 600px) {
+   
+    .wh {width: 1300px; height: 400px;}
+    .w ul li { width: 100%; }
+
+    /* HEADER */
+   
+    .header {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        list-style-type: none;
+        margin: 0px;
+        display: block;
+    }
+
+    .header li {
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .header li a {
+        display: inline-block; 
+        height: 24px; 
+        width: 24px;    
+    }
+
+    .header li a img { 
+        height: 24px; 
+        width: 24px;    
+    }
+
+    /* NAVIGATION BAR */
+   
+    .logo {
+        display: none;  
+    }
+
+    #deactivate {   /* active */
+        background-color: #e30613;
+        display: block;
+    }
+
+    .navbar {
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-nav, .navbar{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        display: block;
+    }
+      
+    .main-nav li, #dropdown {
+        float: left;
+        width: 14.285%;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+    
+    .main-nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+      
+    .main-nav li a:hover {
+        background-color: #e30613;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+    }
+    
+    /* dropdown in navigation menu */
+    
+    #dropdown:hover .dropbtn {
+        background-color:#e30613;
+        display: block;
+        padding: 14px;
+    }
+    
+    #dropdown div a {
+        display: none;
+    }
+    
+    #dropdown:hover div a {
+        display: block;
+        background-color: black;
+        color: #e30613;
+        margin: 0;
+    }
+    
+    #dropdown div a:hover {
+        background-color: black;
+        color:white;
+    }
+
+    /* search in navigation menu */
+/*    
+    .main-nav input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        border: none;
+        font-size: 17px;
+        width: 92%;
+    }
+*/
+
+    /* CONTENT */
+    
+    #setmarg {
+        margin-top: 0px;
+    }
+
+    .wh {width: 630px; height: 250px;}
+
+    /* FOOTER */
+    .w ul li{ width: 8%; }    
+}

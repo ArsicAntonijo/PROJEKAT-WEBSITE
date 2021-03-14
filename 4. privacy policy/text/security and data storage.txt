@@ -1,0 +1,7 @@
+Data protection is integrated into the Website design and, by default, privacy settings are set to a high level. All communication between the user and the Website takes place through a secure encrypted protocol (https).
+
+Processing of personal data will be done in accordance with the regulations for the protection of personal data in Serbia, taking all the prescribed technical and organizational measures for securing confidentiality and protection when processing the personal data in our possession.
+
+Foundation EXIT Foundation is obligated to keep all the confidential information while performing its activities and apply security measures for the collection, storage and processing of information to protect against unauthorized access, alteration, disclosure or destruction of your personal data, as well as disclosing personal data only to the competent bodies in the procedure provided for by law.
+
+The data you disclose is stored for a certain period of time, that is, no longer than the period in which this is necessary. During this period, you retain all your rights, such as rights to access, correct, delete, restrict processing, transfer, complain, and the right not to be subject to automated decision-making, including making a profile.

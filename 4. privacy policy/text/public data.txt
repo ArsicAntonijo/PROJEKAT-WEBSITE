@@ -1,0 +1,3 @@
+In principle, it is possible to use the Website without revealing your identity or other information related to it.
+
+Upon visiting the Website, we collect data that creates user records, which is not sufficient to identify a particular person, but serves as a statistical indicator to improve the quality of the service provided. Such information may be the number of visits, average time spent on the page, type of computer, type of mobile device, technical information about the users connection, operating system, Internet service provider, and only the IP address assigned by an ISP which is different for each user.
