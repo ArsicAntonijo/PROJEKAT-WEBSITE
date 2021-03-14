@@ -61,7 +61,7 @@
                       <a href="https://bilet.bg/bg/promoter/view/13470" target="_blank" id="paint" style="text-align: center;">Bulgaria</a>
                     </div>
                   </li> 
-                <li><a href="\PROJEKAT - WEBSITE\2. dinamic gallery\gallery.php">Gallery</a></li>
+                <li><a href="\PROJEKAT-WEBSITE\2. dinamic gallery\gallery.php">Gallery</a></li>
                 <li id="dropdown">
                     <a class="dropbtn">Family</a>
                     <div class="dropdown-content">
@@ -75,16 +75,16 @@
                 <li id="dropdown">
                     <a class="dropbtn">Info</a>
                     <div class="dropdown-content">
-                        <a href="\PROJEKAT - WEBSITE\7. contact form\index.php" id="paint" style="text-align: center;">Contact</a>
-                        <a href="\PROJEKAT - WEBSITE\9. news\newss.html" id="paint" style="text-align: center;">News</a>
-                        <a href="\PROJEKAT - WEBSITE\5. stages\stagess.php" id="paint" style="text-align: center;">Stages</a>
+                        <a href="\PROJEKAT-WEBSITE\7. contact form\index.php" id="paint" style="text-align: center;">Contact</a>
+                        <a href="\PROJEKAT-WEBSITE\9. news\newss.html" id="paint" style="text-align: center;">News</a>
+                        <a href="\PROJEKAT-WEBSITE\5. stages\stagess.php" id="paint" style="text-align: center;">Stages</a>
                         <a href="/PROJEKAT%20-%20WEBSITE/8.%20lineup/lineupgallery.php" id="paint" style="text-align: center;">Lineup</a>
                         <a href="https://www.trivago.com/" target="_blank" id="paint" style="text-align: center;">Acomodation</a>
                     </div>  
                 </li>
                 <!-- search -->
                 <li>
-                    <a href="\PROJEKAT - WEBSITE\6. search\index.php">Search</a>   
+                    <a href="\PROJEKAT-WEBSITE\6. search\index.php">Search</a>   
                 </li>
                 <li id="dropdown">
                     <a class="dropbtn" id="bigger">User</a>
@@ -157,8 +157,8 @@
             <img src="exit-logo.svg" alt="exit-logo">
             <p>&#169; 2019 EXIT Team. All rights reserved.</p>
             <p style="margin-bottom: 0px;">By visiting this site you agree to the terms of use set out below in the 
-                <a href="\PROJEKAT - WEBSITE\3. terms of use\termsofuse.php">Terms of Use<a> and 
-                <a href="\PROJEKAT - WEBSITE\4. privacy policy\privacypolicy.php">Privacy Policy</a>.</p>
+                <a href="\PROJEKAT-WEBSITE\3. terms of use\termsofuse.php">Terms of Use<a> and 
+                <a href="\PROJEKAT-WEBSITE\4. privacy policy\privacypolicy.php">Privacy Policy</a>.</p>
 		<script>
 		function logout(){
 			window.location.href = 'transfer.php';
