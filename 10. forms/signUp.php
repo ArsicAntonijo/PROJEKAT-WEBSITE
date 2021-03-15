@@ -189,7 +189,7 @@
 							</div>	
 						</div>
 						<div class="modal-footer">
-							<a href="/PROJEKAT%20-%20WEBSITE/1.%20home/Home.php" id="link">Return</a>
+							<a href="/PROJEKAT-WEBSITE/1.%20home/Home.php" id="link">Return</a>
 							<input type="submit" class="btn btn-info" value="Sign up">
 						</div>
 					</form>
@@ -201,7 +201,7 @@
 
 <script>
 	function povratak() {
-		window.location="/PROJEKAT%20-%20WEBSITE/1.%20home/Home.php";
+		window.location="/PROJEKAT-WEBSITE/1.%20home/Home.php";
 	}	
 </script>
  

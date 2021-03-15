@@ -43,20 +43,20 @@
                         $id=$_GET['id'];
                         if($id=="1"){
                             ?>
-                            <p style="text-font:18;text-align:right;padding:15px;"><b><a href="/PROJEKAT%20-%20WEBSITE/8.%20lineup/lineup1.html">See full cast</a></b></p>
+                            <p style="text-font:18;text-align:right;padding:15px;"><b><a href="/PROJEKAT-WEBSITE/8.%20lineup/lineup1.html">See full cast</a></b></p>
                             <?php
                         } elseif($id=="2"){
                             ?>
-                            <p style="text-align:right;padding:15px;"><b><a href="/PROJEKAT%20-%20WEBSITE/8.%20lineup/lineup2.html">See full cast</a></b></p>
+                            <p style="text-align:right;padding:15px;"><b><a href="/PROJEKAT-WEBSITE/8.%20lineup/lineup2.html">See full cast</a></b></p>
                             <?php
                         } else{
                             ?>
-                            <p style="text-align:right;padding:15px;"><b><a href="/PROJEKAT%20-%20WEBSITE/8.%20lineup/lineup3.html">See full cast</a></b></p>
+                            <p style="text-align:right;padding:15px;"><b><a href="/PROJEKAT-WEBSITE/8.%20lineup/lineup3.html">See full cast</a></b></p>
                             <?php
                         }
                     }
                     else {?>
-                        <p style="text-align:right;padding:15px;"><b><a href="/PROJEKAT%20-%20WEBSITE/8.%20lineup/lineup3.html">See full cast</a></b></p>
+                        <p style="text-align:right;padding:15px;"><b><a href="/PROJEKAT-WEBSITE/8.%20lineup/lineup3.html">See full cast</a></b></p>
                    <?php }
                     ?>
             </div>
